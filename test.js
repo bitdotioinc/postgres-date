@@ -1,7 +1,7 @@
 'use strict'
 
-const test = require('tape')
-const parse = require('./')
+import test from 'tape'
+import parse from './index.js'
 
 test('date parser', function (t) {
   t.equal(parse('garbage'), null)

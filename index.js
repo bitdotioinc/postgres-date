@@ -286,7 +286,7 @@ class PGDateParser {
   }
 }
 
-module.exports = function parseDate (isoDate) {
+export default function parseDate (isoDate) {
   if (isoDate === null || isoDate === undefined) {
     return null
   }

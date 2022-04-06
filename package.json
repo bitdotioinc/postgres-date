@@ -21,9 +21,8 @@
     "date",
     "parser"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "standard": "^16.0.0",
+    "standard": "^16.0.4",
     "tape": "^5.0.0",
     "tsd": "^0.20.0"
   },
@@ -31,5 +30,6 @@
     "index.js",
     "index.d.ts",
     "readme.md"
-  ]
+  ],
+  "type": "module"
 }
